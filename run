@@ -1,0 +1,5 @@
+{
+  "To run server":uvicorn app.main:app --reload, #(inside /backend)
+
+  "To run web app":npm run dev #(inside /frontend)
+}

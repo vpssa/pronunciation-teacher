@@ -1,0 +1,19 @@
+# Core AI/ML
+openai-whisper
+torch
+gTTS
+transformers==4.30.2
+soundfile
+g2p_en
+numpy
+librosa
+python-dotenv
+openai
+google-generativeai
+
+# Web Framework
+fastapi
+pydantic
+uvicorn[standard]
+protobuf 
+pyctcdecode

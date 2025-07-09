@@ -1,0 +1,86 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  color: #4caf50; /* A nice green */
+}
+
+select, button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a3a3a;
+}
+
+button:disabled {
+  background-color: #1f1f1f;
+  color: #555;
+  cursor: not-allowed;
+}
+
+.phoneme-good { color: #66bb6a; } /* Green */
+.phoneme-ok { color: #ffee58; } /* Yellow */
+.phoneme-bad { color: #ef5350; } /* Red */
+
+.results-card {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.feedback-tip {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #b0b0b0;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #282828;
+    border-radius: 4px;
+}
+
+.listen-button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    border-radius: 50%; /* Make it circular */
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.listen-button-small {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
